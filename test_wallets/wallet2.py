@@ -18,7 +18,7 @@ class BlockchainAPI:
 if __name__ == "__main__":
     api = BlockchainAPI()
 
-    # Replace with the recipient's wallet address 944422cd982c121bd4aeb0d400f0bf28d302aea3fc61c4538e18df1f607f728c569de18ff5d7bb1a5dfaa7f4734099749ceea9bdd32d7ee98a44d9c7b5c15991 -  b7c6d18669ec69fa071d6b0ae10823600faad0b0ced9bac4341ee799132e214d
+   
     recipient_address = "1"  # Replace this with actual recipient wallet address
 
     # Get and print recipient wallet balance

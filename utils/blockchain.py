@@ -30,16 +30,7 @@ class Blockchain:
                 wallets = json.load(file)
                 return wallets
         except FileNotFoundError:
-            return {
-                '0': {
-                    'balance': 67,
-                    'private_key': 'b7c6d18669ec69fa071d6b0ae10823600faad0b0ced9bac4341ee799132e214d'
-                },
-                '1': {
-                    'balance': 5,
-                    'private_key': 'b7c6d18669ec69fa071d6b0ae10823600faad0b0ced9bac4341ee799132e214e'
-                }
-            }
+            break
 
     def save_wallets(self):
         with open(self.wallets_file, 'w') as file:
